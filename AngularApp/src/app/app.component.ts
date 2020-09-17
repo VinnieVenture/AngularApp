@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { ChangeMainContentService } from './services/change-main-content.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularApp';
+  
+  constructor(private router: Router, private changeServie: ChangeMainContentService ) { }
+
+  ngOnInit(): void {
+    this.changeServie.GetNameToNavigate().subscribe(data => 
+      {
+        this.router.navigate([data]);
+      });
+  }
 }
