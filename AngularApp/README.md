@@ -63,7 +63,7 @@ Wiedzę czerpano ze źródeł:
    * tworzenie stałych danych, możliwych do zaimportowania w całym projekcie - MenuItems
    * wykorzystanie podstawowej wersji *ngFor (let item of menuItems)
 
-#### 1. Creating service
+#### 2. Creating service
    Dorzucenie serwisu change-main-content-service, który powstał z myślą o przesyłaniu informacji pomiędzy menu, 
       a głównym kontentem aplikacji. Zawiera dwie metody:
 
