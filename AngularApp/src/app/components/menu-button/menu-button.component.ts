@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { MenuItem } from 'src/app/models/menuItems';
 
 @Component({
   selector: 'app-menu-button',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuButtonComponent implements OnInit {
 
+  @Input()
+  item: MenuItem;
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  GoToPage()
+  {
+    alert("sfasdfasdf");
+  }
 }
