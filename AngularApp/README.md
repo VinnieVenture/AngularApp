@@ -43,3 +43,37 @@ Wiedzę czerpano ze źródeł:
 
 #### Folder Models
 * menuItems.ts - zawiera zadeklarowaną strukturę obiektu MenuItem za pomocą interfejsu, a także tablicę MenuItemów z wypełnionymi informacjami. Dodatkowo zawiera funkcję wyszukującą MenuItem'y za pomocą id.
+
+
+### Historia:
+#### 1. Creating menu
+    dorzucenie dwóch nowych komponentów: menu i menu-button.
+    Menu button powstał z myślą o swobodnej możliwości edytowania i dodawania zawartości, a także czytelniejszego kodu.
+    To w tym komponencie będzie wysyłana do serwisu nazwa komponentu który ma się wyświetlić na głównej części strony.
+
+    #### Nabyte umiejętności:
+        * tworzenie nowych komponentów za pomocą komendy ng g component Name
+        * wyświetlanie treści za pomocą
+        * wykorzystanie @input - wysyłanie obiektu menu -> menu-button
+        * wykorzystanie ngStyle - edytowanie stylów przycisków na podstawie danych uzyskanych za pomocą pola w menu-button
+        * wykorzystanie router-outlet
+        * tworzenie stałych danych, możliwych do zaimportowania w całym projekcie - MenuItems
+        * wykorzystanie podstawowej wersji *ngFor (let item of menuItems)
+
+#### 1. Creating service
+    dorzucenie serwisu change-main-content-service, który powstał z myślą o przesyłaniu informacji pomiędzy menu, a głównym kontentem aplikacji. Zawiera dwie metody:
+
+    NavigateTo(componentName: string) typu void
+    GetNameToNavigate() zwracającą obiekt Observable
+
+    NavigateTo jest wywoływana po kliknięciu przycisku w menu i ustawia prywatne pole typu string, na przesłany przez metodę link do component'u.
+    GetNameToNavigate jest wywoływana w głównej części aplikacji w metodzie OnInit, zapewniającą, że od razu po załadowaniu strony, będzie nasłuchiwać na metodę GetNameToNavigate, która jest w tym miejscu subskrybowana.
+
+    #### Nabyte umiejętności:
+
+        * tworzenie serwisów
+        * zapoznanie z atrybutem @Injectable
+        * poznanie nowego typu Observable
+        * subskrybowanie metod z serwisów
+        * wykorzystanie nawigacji pomiędzy stronami za pomocą Router i serwisu
+
