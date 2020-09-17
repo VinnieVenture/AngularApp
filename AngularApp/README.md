@@ -22,6 +22,11 @@
 * zastosowanie ngClass i ngStyle
 
 
+Wiedzę czerpano ze źródeł:
+* https://angular-university.io/course/getting-started-with-angular2
+* https://www.youtube.com/watch?v=Amv0vjMZldw&list=PLpzwMkmxJDUyD-UTGQXuevw0YOPgvroPL&index=1
+
+
 ### Struktura
 
 #### Folder App
