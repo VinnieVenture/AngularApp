@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MenuItem } from 'src/app/models/menuItems';
+import { ChangeMainContentService } from 'src/app/services/change-main-content.service';
 
 @Component({
   selector: 'app-menu-button',
@@ -11,13 +12,13 @@ export class MenuButtonComponent implements OnInit {
   @Input()
   item: MenuItem;
   
-  constructor() { }
+  constructor(private changeService: ChangeMainContentService) { }
 
   ngOnInit(): void {
   }
 
   GoToPage()
   {
-    alert("sfasdfasdf");
+    this.changeService.NavigateTo(this.item.navigateTo);
   }
 }
