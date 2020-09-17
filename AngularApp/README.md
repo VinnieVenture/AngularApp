@@ -1,27 +1,37 @@
 # AngularApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+### Projekt powstał, aby zademonstrować umiejętności nabyte w 3 kwartale 2020r.
 
-## Development server
+#### W trakcie tworzenia projektu, nabyto wiedzę z zakresu podstawowego, który obejmuje:
+* @Input
+* @Output
+* ngFor
+* ngIf
+* ngSwitch
+* pipes
+* Serwisy
+* httpClient
+* nawigacja pomiędzy komponentami
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Dodatkowo nabyto wiedzę na temat:
+* Co to jest Angular, wady i zalety
+* Co to jest komponent
+* Zastosowanie każdego z 4 plików tworzonych w trakcie generowania komponentu za pomocą komenty ng g component Name
+* router-outlet
+* tworzenie backendowego serwera za pomocą ASP.NET Core
+* zastosowanie ngClass i ngStyle
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Struktura
 
-## Build
+#### Folder App
+* .
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### Folder Services
+* .
 
-## Running unit tests
+#### Folder Helpers
+* .
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Folder Models
+* .
