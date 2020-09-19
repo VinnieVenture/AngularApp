@@ -1,6 +1,6 @@
-<div style="background-color: antiquewhite;">
+<div [ngStyle]="{'background-color': backgroundColor}">
     <div >
-        <app-menu-button *ngFor="let item of menuItems" [item]="item"></app-menu-button>
+        <app-menu-button *ngFor="let item of menuItems" [item]="item" (buttonSelected)="buttonSelected($event)"></app-menu-button>
     </div>
 </div>
 
