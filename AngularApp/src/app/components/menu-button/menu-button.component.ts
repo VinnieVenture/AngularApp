@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { MenuItem } from 'src/app/models/menuItems';
 import { ChangeMainContentService } from 'src/app/services/change-main-content.service';
 
@@ -11,6 +11,9 @@ export class MenuButtonComponent implements OnInit {
 
   @Input()
   item: MenuItem;
+
+  @Output()
+  buttonSelected = new EventEmitter<string>();
   
   constructor(private changeService: ChangeMainContentService) { }
 
@@ -20,5 +23,7 @@ export class MenuButtonComponent implements OnInit {
   GoToPage()
   {
     this.changeService.NavigateTo(this.item.navigateTo);
+    
+    this.buttonSelected.emit(this.item.backgroundColor);
   }
 }

@@ -8,11 +8,18 @@ import { MenuItems } from 'src/app/models/menuItems';
 })
 export class MenuComponent implements OnInit {
 
+  backgroundColor: string;
   menuItems = MenuItems;
   
   constructor() { }
 
   ngOnInit(): void {
+    this.backgroundColor = "#faebd7";
+  }
+
+  buttonSelected(color: string)
+  {
+    this.backgroundColor = color;
   }
 
 }

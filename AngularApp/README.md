@@ -48,7 +48,7 @@ Wiedzę czerpano ze źródeł:
 ### Historia:
 #### 1. Creating menu
    Dorzucenie dwóch nowych komponentów: menu i menu-button.
-    Menu button powstał z myślą o swobodnej możliwości edytowania i dodawania zawartości, 
+   Menu button powstał z myślą o swobodnej możliwości edytowania i dodawania zawartości, 
       a także czytelniejszego kodu.
    To w tym komponencie będzie wysyłana do serwisu nazwa komponentu, 
       który ma się wyświetlić na głównej części strony.
@@ -82,3 +82,14 @@ Wiedzę czerpano ze źródeł:
    * subskrybowanie metod z serwisów
    * wykorzystanie nawigacji pomiędzy stronami za pomocą Router i serwisu
 
+#### 3. Using Output
+   Dorzucenie customowego eventu w komponencie menu, aby za pomocą informacji zwrotnej z komponentu menu-button, ustawić z użyciem ngStyle koloru tła w menu na kolor ostatnio klikniętego przycisku.   
+   Dodatkowo ustawiono routes na potrzeby zademonstrowania działania @Output.
+   Ustawienie globalnego providera, po to by każdy komponent mógł swobodnie korzystać z serwisu stworzonego w poprzednim PR.
+   Dorzucenie dodatkowych testowych komponentów (test i test2) na potrzeby przedstawienia działania serwisu.
+
+   ### Nabyte umiejętności:
+   * użycie @Output do przesyłania informacji zwrotnej z komponentu.
+   * ustawianie routes - możliwości przeskakiwania między komponentami z wykorzystaniem zdefiniowanych nazw
+   * utrwalenie wiedzy nt. ngStyle
+   
