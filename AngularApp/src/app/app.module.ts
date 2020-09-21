@@ -8,6 +8,8 @@ import { MenuButtonComponent } from './components/menu-button/menu-button.compon
 import { ChangeMainContentService } from './services/change-main-content.service';
 import { TestComponent } from './components/test/test.component';
 import { Test2Component } from './components/test2/test2.component';
+import { NgForExampleComponent } from './components/ng-for-example/ng-for-example.component';
+import { BookComponent } from './components/book/book.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { Test2Component } from './components/test2/test2.component';
     MenuComponent,
     MenuButtonComponent,
     TestComponent,
-    Test2Component
+    Test2Component,
+    NgForExampleComponent,
+    BookComponent
   ],
   imports: [
     BrowserModule,
