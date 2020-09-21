@@ -97,4 +97,12 @@ Wiedzę czerpano ze źródeł:
    * użycie @Output do przesyłania informacji zwrotnej z komponentu.
    * ustawianie routes - możliwości przeskakiwania między komponentami z wykorzystaniem zdefiniowanych nazw
    * utrwalenie wiedzy nt. ngStyle
-   
+
+#### 4. ngFor
+   Dorzucenie dwóch nowych komponentów: book.component i ng-for.example.component.
+   Dorzucenie kolejnego przycisku w menu.
+   Modyfikacja routes.
+
+   ### Nabyte umiejętności:
+   * użycie ngFor do wyświetlania całych list. Mozliwość używania indeksu elementu i modyfikacji go.
+   * Utrwalenie wiedzy na temat tworzenia i wykorzystania komponentów
