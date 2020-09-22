@@ -11,6 +11,7 @@ import { Test2Component } from './components/test2/test2.component';
 import { NgForExampleComponent } from './components/ng-for-example/ng-for-example.component';
 import { BookComponent } from './components/book/book.component';
 import { NgIfExampleComponent } from './components/ng-if-example/ng-if-example.component';
+import { NgSwitchExampleComponent } from './components/ng-switch-example/ng-switch-example.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NgIfExampleComponent } from './components/ng-if-example/ng-if-example.c
     Test2Component,
     NgForExampleComponent,
     BookComponent,
-    NgIfExampleComponent
+    NgIfExampleComponent,
+    NgSwitchExampleComponent
   ],
   imports: [
     BrowserModule,

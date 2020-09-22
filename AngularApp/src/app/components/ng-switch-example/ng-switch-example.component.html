@@ -1,0 +1,13 @@
+<div *ngFor="let book of books;
+            index as item;"          
+            [ngSwitch]="book.PublishingHouse">
+            <app-book [book]="book"></app-book>
+            <div *ngSwitchCase="'Muza'" class="muza"> Wydawnictwo: Muza</div>
+            <div *ngSwitchCase="'Mag'" class="mag">Wydawnictwo: Mag</div>
+            <div *ngSwitchCase="'BELLONA'" class="Bellona">Wydawnictwo: Bellona</div>
+            <div *ngSwitchCase="'Insignis Media'" class="Media">Wydawnictwo: Insignis Media</div>
+            <div *ngSwitchCase="'aleksandria'" class="aleksandria">Wydawnictwo: aleksandria</div>
+            <div *ngSwitchCase="'Jaguar'" class="Jaguar">Wydawnictwo: Jaguar</div>
+            <div *ngSwitchCase="'Grupa Wydawnicza Foksal'" class="Foksal">Wydawnictwo: Grupa Wydawnicza Foksal</div>
+
+</div>

@@ -37,6 +37,8 @@ Wiedzę czerpano ze źródeł:
     * test2 - komponent testowy, aby zaprezentować możliwości navigacyjne z komponentu menu i serwisu.
     * ngForExample - komponent zbudowany, aby przedstawić możliwości ngFor
     * book - komponent odpowiedzialny za pojedyncza ksiażkę
+    * ng-if-example.component - komponent zbudowany, aby przedstawić możliwości ngIf
+    * ng-switch-example.component - komponent zbudowany, aby przedstawić możliwości ngSwitch
 
 #### Folder Services
 * change-main-content-service.ts - serwis do przesyłania informacji wykorzystywanej w routingu na głównej części aplikacji.
@@ -111,3 +113,12 @@ Wiedzę czerpano ze źródeł:
 
    ### Nabyte umiejętności:
    * użycie ngIf
+
+#### 5. ngSwitch
+   Dorzucenie komponentu: ng-switch-example.component.
+   Dorzucenie kolejnego przycisku w menu.
+   Modyfikacja routes.
+
+   ### Nabyte umiejętności:
+   * użycie ngSwitch 
+   * utrwalenie wiedzy na temat @Input
