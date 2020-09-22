@@ -37,6 +37,12 @@ export const MenuItems: any = [
         navigateTo: "ngSwitchComponent",
         backgroundColor: "#1ff1f1",
     },
+    {
+        id: 6,
+        textButton: "Check Pipes",
+        navigateTo: "pipes",
+        backgroundColor: "#1ff771",
+    },
     ];
     
     export function findCourseById(itemID:number) {

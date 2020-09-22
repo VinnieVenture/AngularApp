@@ -12,6 +12,7 @@ import { NgForExampleComponent } from './components/ng-for-example/ng-for-exampl
 import { BookComponent } from './components/book/book.component';
 import { NgIfExampleComponent } from './components/ng-if-example/ng-if-example.component';
 import { NgSwitchExampleComponent } from './components/ng-switch-example/ng-switch-example.component';
+import { PipesExampleComponent } from './components/pipes-example/pipes-example.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NgSwitchExampleComponent } from './components/ng-switch-example/ng-swit
     NgForExampleComponent,
     BookComponent,
     NgIfExampleComponent,
-    NgSwitchExampleComponent
+    NgSwitchExampleComponent,
+    PipesExampleComponent
   ],
   imports: [
     BrowserModule,

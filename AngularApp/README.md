@@ -39,6 +39,7 @@ Wiedzę czerpano ze źródeł:
     * book - komponent odpowiedzialny za pojedyncza ksiażkę
     * ng-if-example.component - komponent zbudowany, aby przedstawić możliwości ngIf
     * ng-switch-example.component - komponent zbudowany, aby przedstawić możliwości ngSwitch
+    * pipes-example.component - komponent zbudowany, aby przedstawić możliwości pipes
 
 #### Folder Services
 * change-main-content-service.ts - serwis do przesyłania informacji wykorzystywanej w routingu na głównej części aplikacji.
@@ -122,3 +123,11 @@ Wiedzę czerpano ze źródeł:
    ### Nabyte umiejętności:
    * użycie ngSwitch 
    * utrwalenie wiedzy na temat @Input
+
+#### 6. Pipes
+   Dorzucenie komponentu: pipes-example.component.
+   Dorzucenie kolejnego przycisku w menu.
+   Modyfikacja routes.
+
+   ### Nabyte umiejętności:
+   * użycie pipes do modyfikacji wyświetlania danych na przykładzie daty
