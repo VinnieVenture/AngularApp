@@ -10,6 +10,7 @@ import { TestComponent } from './components/test/test.component';
 import { Test2Component } from './components/test2/test2.component';
 import { NgForExampleComponent } from './components/ng-for-example/ng-for-example.component';
 import { BookComponent } from './components/book/book.component';
+import { NgIfExampleComponent } from './components/ng-if-example/ng-if-example.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BookComponent } from './components/book/book.component';
     TestComponent,
     Test2Component,
     NgForExampleComponent,
-    BookComponent
+    BookComponent,
+    NgIfExampleComponent
   ],
   imports: [
     BrowserModule,

@@ -42,9 +42,6 @@ Wiedzę czerpano ze źródeł:
 * change-main-content-service.ts - serwis do przesyłania informacji wykorzystywanej w routingu na głównej części aplikacji.
 * change-main-content-service.spec.ts - testy do serwisu
 
-#### Folder Helpers
-* .
-
 #### Folder Models
 * menuItems.ts - zawiera zadeklarowaną strukturę obiektu MenuItem za pomocą interfejsu, a także tablicę MenuItemów z wypełnionymi informacjami. Dodatkowo zawiera funkcję wyszukującą MenuItem'y za pomocą id.
 * Books.ts - zawiera zadeklarowaną strukturę obiektu Book za pomocą interfejsu, a także tablicę Books z wypełnionymi informacjami. Dodatkowo zawiera funkcję wyszukującą Book za pomocą id.
@@ -106,3 +103,11 @@ Wiedzę czerpano ze źródeł:
    ### Nabyte umiejętności:
    * użycie ngFor do wyświetlania całych list. Mozliwość używania indeksu elementu i modyfikacji go.
    * Utrwalenie wiedzy na temat tworzenia i wykorzystania komponentów
+
+#### 4. ngIf
+   Dorzucenie komponentu: ng-if-example.component.
+   Dorzucenie kolejnego przycisku w menu.
+   Modyfikacja routes.
+
+   ### Nabyte umiejętności:
+   * użycie ngIf

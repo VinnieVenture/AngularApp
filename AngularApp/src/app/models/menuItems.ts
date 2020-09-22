@@ -25,6 +25,12 @@ export const MenuItems: any = [
         navigateTo: "ngForComponent",
         backgroundColor: "#f1f1f1",
     },
+    {
+        id: 4,
+        textButton: "Check NgIf",
+        navigateTo: "ngIfComponent",
+        backgroundColor: "#f171f1",
+    },
     ];
     
     export function findCourseById(itemID:number) {
