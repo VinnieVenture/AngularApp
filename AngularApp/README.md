@@ -80,7 +80,7 @@ Wiedzę czerpano ze źródeł:
    GetNameToNavigate jest wywoływana w głównej części aplikacji w metodzie OnInit, zapewniającą, 
     że od razu po załadowaniu strony, będzie nasłuchiwać na metodę GetNameToNavigate, która jest w tym miejscu subskrybowana.
 
-   ### Nabyte umiejętności:
+   #### Nabyte umiejętności:
    * tworzenie serwisów
    * zapoznanie z atrybutem @Injectable
    * poznanie nowego typu Observable
@@ -93,7 +93,7 @@ Wiedzę czerpano ze źródeł:
    Ustawienie globalnego providera, po to by każdy komponent mógł swobodnie korzystać z serwisu stworzonego w poprzednim PR.
    Dorzucenie dodatkowych testowych komponentów (test i test2) na potrzeby przedstawienia działania serwisu.
 
-   ### Nabyte umiejętności:
+   #### Nabyte umiejętności:
    * użycie @Output do przesyłania informacji zwrotnej z komponentu.
    * ustawianie routes - możliwości przeskakiwania między komponentami z wykorzystaniem zdefiniowanych nazw
    * utrwalenie wiedzy nt. ngStyle
@@ -103,7 +103,7 @@ Wiedzę czerpano ze źródeł:
    Dorzucenie kolejnego przycisku w menu.
    Modyfikacja routes.
 
-   ### Nabyte umiejętności:
+   #### Nabyte umiejętności:
    * użycie ngFor do wyświetlania całych list. Mozliwość używania indeksu elementu i modyfikacji go.
    * Utrwalenie wiedzy na temat tworzenia i wykorzystania komponentów
 
@@ -112,7 +112,7 @@ Wiedzę czerpano ze źródeł:
    Dorzucenie kolejnego przycisku w menu.
    Modyfikacja routes.
 
-   ### Nabyte umiejętności:
+   #### Nabyte umiejętności:
    * użycie ngIf
 
 #### 5. ngSwitch
@@ -120,7 +120,7 @@ Wiedzę czerpano ze źródeł:
    Dorzucenie kolejnego przycisku w menu.
    Modyfikacja routes.
 
-   ### Nabyte umiejętności:
+   #### Nabyte umiejętności:
    * użycie ngSwitch 
    * utrwalenie wiedzy na temat @Input
 
@@ -129,5 +129,5 @@ Wiedzę czerpano ze źródeł:
    Dorzucenie kolejnego przycisku w menu.
    Modyfikacja routes.
 
-   ### Nabyte umiejętności:
+   #### Nabyte umiejętności:
    * użycie pipes do modyfikacji wyświetlania danych na przykładzie daty
